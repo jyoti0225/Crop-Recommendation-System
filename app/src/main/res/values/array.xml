@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="States">
+        <item>Select State</item>
+        <item>A &amp; N ISLANDS</item>
+        <item>ANDHRA PRADESH</item>
+        <item>ARUNACHAL PRADESH</item>
+        <item>ASSAM</item>
+        <item>BIHAR</item>
+        <item>CHANDIGARH</item>
+        <item>CHHATTISGARH</item>
+        <item>D &amp; N HAVELI</item>
+        <item>DELHI</item>
+        <item>GOA</item>
+        <item>GUJARAT</item>
+        <item>HARYANA</item>
+        <item>HIMACHAL PRADESH</item>
+        <item>JAMMU &amp; KASHMIR</item>
+        <item>JHARKHAND</item>
+        <item>KARNATAKA</item>
+        <item>KERALA</item>
+        <item>MADHYA PRADESH</item>
+        <item>MAHARASHTRA</item>
+        <item>MANIPUR</item>
+        <item>MEGHALYA</item>
+        <item>MIZORAM</item>
+        <item>NAGALAND</item>
+        <item>ORISSA</item>
+        <item>PONDICHERRY</item>
+        <item>PUNJAB</item>
+        <item>RAJASTHAN</item>
+        <item>SIKKIM</item>
+        <item>TAMIL NADU</item>
+        <item>TRIPURA</item>
+        <item>UTTAR PRADESH</item>
+        <item>UTTARANCHAL</item>
+        <item>WEST BENGAL</item>
+    </string-array>
+
+    <string-array name="state_links">
+
+        <item>	http://agri.and.nic.in </item>
+        <item>http://www.apagrisnet.gov.in</item>
+        <item>	http://arunachalpradesh.nic.in</item>
+        <item>http://www.agriassam.in</item>
+        <item>http://krishi.bih.nic.in</item>
+        <item>	http://agripb.gov.in</item>
+        <item>http://agridept.cg.gov.in</item>
+        <item>	http://dnh.nic.in/departmentsnew.aspx</item>
+        <item>http://agricoop.nic.in/</item>
+        <item>http://agri.goa.gov.in</item>
+        <item>http://agricoop.nic.in/agriculturecontingency/gujarat</item>
+        <item>	http://agriharyana.gov.in/</item>
+        <item>http://www.hpagriculture.com/</item>
+        <item>	http://www.jkapd.nic.in/</item>
+        <item>	http://www.jharkhand.gov.in/agri</item>
+        <item>	http://raitamitra.kar.nic.in/KAN/index.asp</item>
+        <item>	http://www.keralaagriculture.gov.in/</item>
+        <item>	http://mpkrishi.mp.gov.in/</item>
+        <item>	http://krishi.maharashtra.gov.in/</item>
+        <item>	http://mastec.nic.in/About_agriculture.htm</item>
+        <item>http://www.megagriculture.gov.in/</item>
+        <item>http://agriculturemizoram.nic.in/</item>
+        <item>http://agringl.nic.in/</item>
+        <item>	http://agriodisha.nic.in/</item>
+        <item>http://agri.puducherry.gov.in/</item>
+        <item>	http://agripb.gov.in/</item>
+        <item>http://agriculture.rajasthan.gov.in/</item>
+        <item>	http://www.sikkimagrisnet.org</item>
+        <item>http://www.tn.gov.in/department/2</item>
+        <item>	http://agri.tripura.gov.in/</item>
+        <item>	http://upagriculture.com/Default_ENG.aspx</item>
+        <item>	http://agriculture.uk.gov.in/</item>
+        <item> https://wb.gov.in/portal/web/guest/agriculture</item>
+
+    </string-array>
+
+    <string-array name="District">
+        <item>Select District</item>
+    </string-array>
+
+    <string-array name="Crop">
+        <item>Select Crop</item>
+    </string-array>
+
+
+    <string-array name="CropSeason">
+        <item>Select Crop Season</item>
+        <item>Kharif</item>
+        <item>Rabi</item>
+        <item>Whole Season</item>
+        <item>Autumn Season</item>
+    </string-array>
+
+
+    <string-array name="Crop_Year">
+        <item>Select Year</item>
+        <item> 2019  </item>
+        <item> 2020  </item>
+        <item> 2021  </item>
+        <item> 2022  </item>
+        <item> 2023  </item>
+    </string-array>
+
+    <string-array name="Crop_Soil">
+        <item>Select Soil Type</item>
+        <item> Alluvial  Soil </item>
+        <item> Black / Regur Soil  </item>
+        <item> Red Soil  </item>
+        <item> Laterite Soil  </item>
+        <item>Forest Soil</item>
+        <item>Saline Soil</item>
+        <item> Peaty / Marshy Soil   </item>
+        <item> Arid / Desert Soil </item>
+        <item> Other Soil</item>
+    </string-array>
+
+
+
+    <string-array name="State_market">
+        <item>Select State</item>
+       <item>Andaman and Nicobar </item>
+        <item> Andhra Pradesh      </item>
+        <item> Assam               </item>
+        <item> Bihar               </item>
+        <item> Chandigarh          </item>
+        <item> Chattisgarh         </item>
+        <item> Goa                 </item>
+        <item> Gujarat             </item>
+        <item> Haryana             </item>
+        <item> Himachal Pradesh    </item>
+        <item> Jammu and Kashmir   </item>
+        <item> Jharkhand           </item>
+        <item> Karnataka           </item>
+        <item> Kerala              </item>
+        <item> Madhya Pradesh      </item>
+        <item> Maharashtra         </item>
+        <item> Manipur             </item>
+        <item> Meghalaya           </item>
+        <item> Mizoram             </item>
+        <item> NCT of Delhi        </item>
+        <item> Orissa              </item>
+        <item> Pondicherry         </item>
+        <item> Punjab              </item>
+        <item> Rajasthan           </item>
+        <item> Tamil Nadu          </item>
+        <item> Telangana           </item>
+        <item> Tripura             </item>
+        <item> Uttar Pradesh       </item>
+        <item> Uttrakhand          </item>
+        <item> West Bengal </item>
+    </string-array>
+
+    <string-array name="Days">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>Day before Yesterday</item>
+    </string-array>
+    <string-array name="pref_units_options">
+        <item>@string/pref_units_label_metric</item>
+        <item>@string/pref_units_label_imperial</item>
+    </string-array>
+
+    <string-array name="pref_units_values">
+        <item>@string/pref_units_metric</item>
+        <item>@string/pref_units_imperial</item>
+    </string-array>
+
+
+
+
+</resources>

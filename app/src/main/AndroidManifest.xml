@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.agriculturalapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- Permissions required by the sync adapter -->
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Select_Policy"
+            android:label="@string/policy_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SelectProblem"
+            android:label="@string/problem_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.TreatmentDetail"
+            android:label="@string/treatment_detail_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.SelectProblem" />
+        </activity>
+        <activity
+            android:name=".activities.CropProductionActivity"
+            android:label="@string/crops_production_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.Select_State_Bazaar"
+            android:label="@string/bazaar_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SurveyActivity"
+            android:label="@string/production_details_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.HorticultureActivity"
+            android:label="@string/title_activity_horticulture"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SurveyInformation"
+            android:label="@string/production_details_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.SurveyActivity" />
+        </activity>
+        <activity
+            android:name=".activities.BazaarInformation"
+            android:label="@string/bazaar_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.SurveyActivity" />
+        </activity>
+        <activity
+            android:name=".activities.GraphActivity"
+            android:label="@string/production_details_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.SurveyInformation" />
+        </activity>
+        <activity
+            android:name=".activities.BazaarActivity2"
+            android:label="@string/bazaar_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.SurveyInformation" />
+        </activity>
+        <activity
+            android:name=".activities.CropDetailActivity"
+            android:label="@string/crop_detail_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.CropProductionActivity" />
+        </activity>
+        <activity
+            android:name=".activities.WebActivity"
+            android:label="@string/title_activity_web"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.Select_Policy" />
+        </activity>
+        <activity
+            android:name=".activities.HorticultureDetailActivity"
+            android:label="@string/title_activity_horticulture"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.HorticultureActivity" />
+        </activity>
+        <activity
+            android:name=".activities.StateDepartment"
+            android:label="@string/title_activity_state_department"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SoilHealthActivity"
+            android:label="@string/title_activity_soil_health"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CropYieldPrediction"
+            android:label="Estimate Your Crop Yield"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CropVarietyRecommender"
+            android:label="Crop Variety Recommender"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity android:name=".activities.YouTubeVideo"
+            android:label="YouTube Videos"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" /></activity>
+        <activity
+            android:name="com.agriculturalapp.weather.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="com.agriculturalapp.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.agriculturalapp.weather.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.agriculturalapp.activities.MainActivity"
+            android:theme="@style/SettingsTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.agriculturalapp.weather.sunmain"
+            android:label="Weather Forecast"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.agriculturalapp.activities.MainActivity" />
+        </activity>
+        <provider
+            android:name="com.agriculturalapp.data.WeatherProvider"
+            android:authorities="@string/content_authority"
+            android:exported="false"
+            android:syncable="true" />
+
+        <!-- SyncAdapter's dummy authentication service -->
+
+        <service android:name="com.agriculturalapp.sync.SunshineAuthenticatorService" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <!-- The SyncAdapter service -->
+        <service
+            android:name="com.agriculturalapp.sync.SunshineSyncService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+        </service>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDQROIh8NnSRb9zVkY85MlJJy0QBzVZnxE" />
+
+        <!--android:value="AIzaSyAm7IvC5DpVPeKLTeX0DUT8tYOqHRaccrA" />-->
+    </application>
+
+</manifest>

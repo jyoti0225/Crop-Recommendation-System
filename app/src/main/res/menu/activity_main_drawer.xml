@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/bazar_rates_nav"
+            android:icon="@drawable/rates"
+            android:title="Bazar Rates"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/weather"
+            android:icon="@drawable/weather"
+            android:title="Weather Forecast" />
+
+        <item
+            android:id="@+id/youtube_videos"
+            android:icon="@drawable/youtube_play_filled"
+            android:title="YouTube Videos" />
+
+        <item
+            android:id="@+id/state_agricultural_nav"
+            android:icon="@drawable/state"
+            android:title="State Agricultural Department" />
+        <item
+            android:id="@+id/about_nav"
+            android:icon="@drawable/about"
+            android:title="About App" />
+    </group>
+
+    <item android:title="Help/Feedback">
+        <menu>
+            <item
+                android:id="@+id/contactus_nav"
+                android:icon="@drawable/contact_us"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/call_link"
+                android:orderInCategory="100"
+                android:title="@string/action_settings"
+                android:icon="@drawable/icon_call" />
+        </menu>
+    </item>
+
+</menu>
